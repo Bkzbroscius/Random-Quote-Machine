@@ -1,0 +1,45 @@
+
+body {
+    background-color: #ffe4c4;
+}
+#result {
+    width:  500px;
+    height: 400px;
+    border: 5px solid #4dac4d;
+    background-color: #91db91;
+    font-family: monospace;
+    font-size: 20px;
+    color: #04048d;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.generateQuote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+.container { 
+    background-color: #313331;
+
+}
+
+#randomQuoteButton {
+    margin: 5px;
+}
+
+#btnTweet {
+    margin: 5px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
