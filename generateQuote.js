@@ -1,7 +1,7 @@
 //Generate a quote when user clicks button and diplay it
 $(document).ready(function() {
     $("#randomQuoteButton").on("click", function(){
- $.getJSON("http://quotes.stormconsultancy.co.uk/random.json", function (json) {
+ $.getJSON("https://random-quote-generator.herokuapp.com/api/quotes/random", function (json) {
         $("#result").html(json.quote +"<br><br>"+ "---" + json.author);
           
       });
